@@ -10,11 +10,11 @@ namespace Bloxstrap.AppData
     {
         public string ProductName => "Roblox";
 
-        public string BinaryType => "WindowsPlayer";
+        public string BinaryType => "Windowsplayer";
 
         public string RegistryName => "RobloxPlayer";
 
-        public override string ExecutableName => "RobloxPlayerBeta.exe";
+        public override string ExecutableName => "Roblox.client";
 
         public override string Directory => Path.Combine(Paths.Roblox, "Player");
 
